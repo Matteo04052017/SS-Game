@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d1fcd85be7709794a852ab0e0ca545e7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _N: {fileID: 2100000, guid: 35d7aae8aaac9164fa73357da68f8fb8, type: 2}
+  - Elettrone: {fileID: 1496979923111682, guid: 00730d36f9503ab439795ff6ddb8079d,
+      type: 2}
+  - Positrone: {fileID: 1495580862462316, guid: e5bb095551f41a5409360b43728bfd1c,
+      type: 2}
+  - Composite: {fileID: 1021414885964250, guid: 5f2cf4e8848b70944b8022118b39e4c8,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
