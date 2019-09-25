@@ -4,7 +4,7 @@ using System.Collections;
 public class Movement : MonoBehaviour
 {
     public const float DistanzaRiferimentoSpazio = 1.879157f;
-    public const float ReduceVel = 10;
+    public const float ReduceVel = 0.1f;
     //default per terra
     [SerializeField]
     public float PeriodoRivoluzione = 1;

@@ -37,6 +37,7 @@ public class OrbitCollision : MonoBehaviour
                 Success.Play();
                 gameObject.SetActive(false);
                 (otherCollider.gameObject.GetComponent("DistanceGrabbable") as DistanceGrabbable).SnapToOriginAfterRelease = true;
+                otherCollider.gameObject.GetComponent<Movement>().enabled = true;
 
                 CheckSuccess();
             }

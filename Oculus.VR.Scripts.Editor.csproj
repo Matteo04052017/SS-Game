@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{771DFBAB-1FFD-A4AD-659D-690B531C22EF}</ProjectGuid>
+    <ProjectGuid>{0FD46ACC-60B9-6800-936E-DB7F59654B56}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Oculus.VR.Scripts.Editor</AssemblyName>
@@ -353,7 +353,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{994B164F-A978-073C-7A9A-C236CE2B71D7}</Project>
+      <Project>{7FDB2BD1-11C3-E3CA-B82C-855D4B21B755}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
   </ItemGroup>

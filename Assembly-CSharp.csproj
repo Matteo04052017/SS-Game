@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{FA4DAE6C-71B9-A618-49A0-0F9DC115E3EB}</ProjectGuid>
+    <ProjectGuid>{519A3EA9-E223-78CF-736F-DA6F70B46242}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -344,7 +344,9 @@
     <Compile Include="Assets\Script\CollisionActivate.cs" />
     <Compile Include="Assets\Script\Movement.cs" />
     <Compile Include="Assets\Script\OrbitCollision.cs" />
-    <Compile Include="Assets\Script\UIStartGame.cs" />
+    <Compile Include="Assets\Script\StartSceneOnHeadSetRemoval.cs" />
+    <Compile Include="Assets\Script\UIStartGameAnyGrabKey.cs" />
+    <Compile Include="Assets\Script\UIStartGameDebugUIBuilder.cs" />
     <None Include="Assets\Shaders\Planet.shader" />
     <None Include="Assets\Oculus\Avatar\Content\Materials\AvatarMaterialStateShader.cginc" />
     <None Include="Assets\_Creepy_Cat\3D Games Effects Pack Free\Example_02\Help Readme SOS.txt" />
@@ -396,19 +398,19 @@
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurfaceIO.cginc" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
     <Reference Include="Assembly-UnityScript-firstpass">
-      <HintPath>C:/Users/MatteoDiCarlo/Documents/ongithub/SS-Game/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+      <HintPath>C:/Users/MatteoDiCarlo/Documents/svn_repo_new/OculusFramework --working/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/MatteoDiCarlo/Documents/ongithub/SS-Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/MatteoDiCarlo/Documents/svn_repo_new/OculusFramework --working/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/MatteoDiCarlo/Documents/ongithub/SS-Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/MatteoDiCarlo/Documents/svn_repo_new/OculusFramework --working/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/MatteoDiCarlo/Documents/ongithub/SS-Game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/MatteoDiCarlo/Documents/svn_repo_new/OculusFramework --working/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/MatteoDiCarlo/Documents/ongithub/SS-Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/MatteoDiCarlo/Documents/svn_repo_new/OculusFramework --working/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -647,15 +649,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{C344AF1F-2DCD-4A09-4982-B29CEE3EFB4F}</Project>
+      <Project>{EBD1B296-5C5A-5A80-BDAC-C0BCA7EBD732}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
-      <Project>{771DFBAB-1FFD-A4AD-659D-690B531C22EF}</Project>
+      <Project>{0FD46ACC-60B9-6800-936E-DB7F59654B56}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{994B164F-A978-073C-7A9A-C236CE2B71D7}</Project>
+      <Project>{7FDB2BD1-11C3-E3CA-B82C-855D4B21B755}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
   </ItemGroup>
